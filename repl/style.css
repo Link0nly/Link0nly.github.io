@@ -1,0 +1,82 @@
+body{
+  background-image:url("road.jpg");
+  background-size:cover;
+}
+.all-rubrique{
+  background-color: #024773;
+  padding:25px;
+}
+
+
+p{
+font-family: Georgia;
+}
+
+.pageweb{
+  background-color: white;
+  margin: 16px;
+  padding: 24px;
+}
+
+.maintitle{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#024773;
+  border-top:#024773 solid;
+}
+.square{
+ border:#024773 solid 1px; 
+}
+.subtitle{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Summary{
+  border: solid black 2px;
+
+}
+
+.sous-rubrique{
+  background-color: #024773;
+  margin:3px;
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+  border-left: solid #25a7fa 3px;
+  border-bottom: solid #25a7fa 3px;
+  padding:21px;
+  font-size:20px;
+}
+.sous-rubrique:hover{
+  border-left: solid #0e4a58 3px;
+  border-bottom: solid #0e4a58 3px;
+}
+
+.sous-rubrique:visited{
+  color: white;
+}
+.list{
+
+}
+
+.sous-list{
+  text-decoration: none;
+  color: black;
+  border-top: thin dotted black;
+}
+.sous-list:hover{
+ background-color: #9c9c9c;
+}
+
+.bulle{
+ border:#024773 solid 1px;
+ padding: 16px;
+}
+.bulle:hover{
+  background-color: #ddd;
+}
+
+.sous-bulle{
+  text-decoration: none;
+  color: #024773;
+}
