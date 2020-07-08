@@ -1,1 +1,1 @@
-# Link0nly.github.io
+# Link0nly.io
