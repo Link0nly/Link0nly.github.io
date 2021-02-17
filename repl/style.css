@@ -1,12 +1,20 @@
 body{
   background-image:url("road.jpg");
-  background-size:cover;
+  background-size: auto;
+  position: relative;
 }
 .all-rubrique{
   background-color: #024773;
-  padding:25px;
+  padding:10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
+.image{
+  max-height: 100%;
+  max-width: 100%;
+}
 
 p{
 font-family: Georgia;
@@ -25,10 +33,11 @@ font-family: Georgia;
   border-top:#024773 solid;
 }
 .square{
- border:#024773 solid 1px; 
+ border:#024773 solid 6px;
 }
 .subtitle{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 16px;
 }
 
 .Summary{
@@ -41,10 +50,9 @@ font-family: Georgia;
   margin:3px;
   color: white;
   text-decoration: none;
-  padding: 3px;
   border-left: solid #25a7fa 3px;
   border-bottom: solid #25a7fa 3px;
-  padding:21px;
+  padding:6px;
   font-size:20px;
 }
 .sous-rubrique:hover{
@@ -54,9 +62,6 @@ font-family: Georgia;
 
 .sous-rubrique:visited{
   color: white;
-}
-.list{
-
 }
 
 .sous-list{
@@ -69,8 +74,9 @@ font-family: Georgia;
 }
 
 .bulle{
- border:#024773 solid 1px;
- padding: 16px;
+ border:#024773 solid 6px;
+ padding: 12px;
+ border-radius: 12px;
 }
 .bulle:hover{
   background-color: #ddd;
@@ -80,3 +86,6 @@ font-family: Georgia;
   text-decoration: none;
   color: #024773;
 }
+
+
+
