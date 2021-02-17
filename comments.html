@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="fr">
+  <head>
+    <title>Commentaires | Link0nly's website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="repl\style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+
+    <div class="all-rubrique">
+    <nav class="rubrique">
+    <a class="sous-rubrique" href="index.html">Accueil</a>
+    <a class="sous-rubrique" href="docs.html">Mes documents</a>
+    <a class="sous-rubrique" href="blog.html">Blog</a>
+    <a class="sous-rubrique" href="contacts.html">Contacts</a>
+    <a class="sous-rubrique" href="comments.html">Commentaires</a>
+    </nav> 
+    </div>
+
+    <div class="pageweb">
+      <h1 class="maintitle">Commentaires</h1>
+      <p>Il n'est pas fonctionnel pour le moment pour raison qu'il n'y pas de database<br>
+        pour stocker les commentaire, et il faudrait que je maitrise le php <br>
+        vous pouvez toujours l'essayer</p>
+     
+          <div id="commentspace">
+              <label>Psuedo:</label>
+              <br>
+              <input type="text" id="username" placeholder="psuedo" maxlength="256" value=""/>
+              <br>
+              <label>Commentaire:</label>
+              <br>
+              <textarea rows="3" maxlength="300" id="comment" placeholder="Commentez ici"></textarea>
+              <br>
+          <button id="publish" onclick="document.createElement('p')">Publier</button>
+          </div>
+
+    </div>
+  </body>
+</html>
