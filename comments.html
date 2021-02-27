@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    <div class="all-rubrique">
+    <header class="all-rubrique">
     <nav class="rubrique">
     <a class="sous-rubrique" href="index.html">Accueil</a>
     <a class="sous-rubrique" href="docs.html">Mes documents</a>
@@ -17,15 +17,15 @@
     <a class="sous-rubrique" href="contacts.html">Contacts</a>
     <a class="sous-rubrique" href="comments.html">Commentaires</a>
     </nav> 
-    </div>
+  </header>
 
-    <div class="pageweb">
+    <div class="pageweb" id="pageweb">
       <h1 class="maintitle">Commentaires</h1>
-      <p>Il n'est pas fonctionnel pour le moment pour raison qu'il n'y pas de database<br>
+      <p>Il n'est pas très fonctionnel pour le moment pour raison qu'il n'y pas de base de donnés<br>
         pour stocker les commentaire, et il faudrait que je maitrise le php <br>
-        vous pouvez toujours l'essayer</p>
+        Remarque : Il affiche le contenu quelques secondes avant de disparaitre</p>
      
-          <div id="commentspace">
+          <form id="commentspace">
               <label>Psuedo:</label>
               <br>
               <input type="text" id="username" placeholder="psuedo" maxlength="256" value=""/>
@@ -34,9 +34,10 @@
               <br>
               <textarea rows="3" maxlength="300" id="comment" placeholder="Commentez ici"></textarea>
               <br>
-          <button id="publish" onclick="document.createElement('p')">Publier</button>
-          </div>
+          <button id="publish" onclick="publier()">Publier</button>
+          </form>
 
     </div>
+    <script src="script.js" type="text/javascript"></script>
   </body>
 </html>
