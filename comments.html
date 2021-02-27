@@ -23,9 +23,10 @@
       <h1 class="maintitle">Commentaires</h1>
       <p>Il n'est pas très fonctionnel pour le moment pour raison qu'il n'y pas de base de donnés<br>
         pour stocker les commentaire, et il faudrait que je maitrise le php <br>
-        Remarque : Il affiche le contenu quelques secondes avant de disparaitre</p>
+        vous pouvez tapper des truc et publier mais quand vous actualiserez la page, tout disparait.<br>
+        voila pourquoi J'ai pas mis form pour cet element mais div ;) Testez !!!! :)</p>
      
-          <form id="commentspace">
+          <div id="commentspace">
               <label>Psuedo:</label>
               <br>
               <input type="text" id="username" placeholder="psuedo" maxlength="256" value=""/>
@@ -35,7 +36,7 @@
               <textarea rows="3" maxlength="300" id="comment" placeholder="Commentez ici"></textarea>
               <br>
           <button id="publish" onclick="publier()">Publier</button>
-          </form>
+          </div>
 
     </div>
     <script src="script.js" type="text/javascript"></script>
